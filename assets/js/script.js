@@ -1,4 +1,10 @@
 'use strict';
+// user type event 
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'event': 'user_type_event',
+  'user_type': 'new' // or 'returning'
+});
 
 // modal variables
 const modal = document.querySelector('[data-modal]');
